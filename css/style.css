@@ -1,0 +1,145 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: cursive ;
+  text-decoration: none;
+ 
+ 
+}
+/** titulo y header **/
+.header{
+  display: block;
+
+}
+.titulo{
+  color: sandybrown;
+  margin-left: 350px;
+}
+.ul{
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+
+}
+.li{
+list-style: none;
+}
+.li a {
+  display: block;
+  padding: 25px;
+margin-right: 80px ;
+  
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #eca023;
+  background-color:antiquewhite;
+  
+} 
+/*NOSOTROS*/
+
+.nosotros_nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros_nav a{
+  display: block;
+  padding: 25px;
+  margin-right: 80px ;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #eca023;
+  background-color:antiquewhite;
+  
+}
+
+/**
+imagenes las primeras dos chiquitas
+**/
+
+.imagen1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.img2{
+  width: 250px;
+  border-radius: 20%;
+}
+.img3{
+  width: 250px;
+  border-radius: 20%;
+}
+/**
+imagenes las tercera y cuarta chiquitas
+**/
+.imagen2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.img4{
+  width: 250px;
+  border-radius: 20%;
+}
+.img5{
+  width: 250px;
+  border-radius: 20%;
+}
+
+/*   REDES SOCIALES*/
+
+.redes{
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+.redes a{
+font-size: 50px;
+}
+.facebook{
+  color: rgb(60, 60, 235);
+}
+.instagram{
+  color:sienna;
+}
+.twiter{
+  color: cadetblue;
+}
+.whatsapp{
+  color: green;
+}
+.footer h4{
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+/**  STYLE DE  CONTACTO.HTML  **/
+
+.contacto_header{
+  display: flex;
+text-decoration: none;
+color: antiquewhite;
+
+}
+.contacto_header a{
+  display: block;
+  padding: 25px;
+ padding-left: 30px;
+ margin-left: 550px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #eca023;
+  background-color:antiquewhite;
+}
+/**   FORMULARIO */
+.formulario{
+  background-color: aqua;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.nosotros_{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
